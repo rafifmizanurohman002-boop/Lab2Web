@@ -42,10 +42,10 @@ Pada latihan berikutnya tabel dikembangkan menggunakan:
 
 ---
 # Screenshot Hasil Praktikum
-![TABLE HTMLl 1](ss/TABEL_HTML1.png)
-![TABLE HTMLl 1](ss/TABEL_HRML2.png)
-![Struktur Tabel 1](ss/STUKTUR_TABEL1.PNG)
-![Struktur Tabel 1](ss/STUKTUR_TABEL2.PNG)
+![Tabel HTML 1](SS/TABEL_HTML1.png)
+![Tabel HTML 2](SS/TABEL_HRML2.png)
+![Struktur Tabel 1](SS/STUKTUR_TABEL1.png)
+![Struktur Tabel 2](SS/STUKTUR_TABEL2.png)
 
 
 ## 2. Form
