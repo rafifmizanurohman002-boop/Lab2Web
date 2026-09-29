@@ -41,6 +41,12 @@ Pada latihan berikutnya tabel dikembangkan menggunakan:
 - `colspan`
 
 ---
+# Screenshot Hasil Praktikum
+(TABEL_HTML1.png)
+(TABEL_HRML2.png)
+(STUKTUR_TABEL1.PNG)
+(STUKTUR_TABEL2.PNG)
+
 
 ## 2. Form
 
