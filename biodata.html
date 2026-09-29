@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Biodata Mahasiswa</h1>
+        <p>Mini Project Praktikum HTML Lanjutan</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Latihan HTML</a> |
+        <a href="biodata.html">Biodata</a>
+    </nav>
+
+    <main>
+
+        <!-- Data Biodata -->
+        <section>
+            <h2>Data Diri</h2>
+
+            <table border="1">
+                <caption>Biodata Mahasiswa</caption>
+
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>NIM</td>
+                        <td>312510377</td>
+                    </tr>
+
+                    <tr>
+                        <td>Nama</td>
+                        <td>RAFIF MIZANUROHMAN</td>
+                    </tr>
+
+                    <tr>
+                        <td>Program Studi</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fakultas</td>
+                        <td>Fakultas Teknik</td>
+                    </tr>
+
+                    <tr>
+                        <td>Angkatan</td>
+                        <td>2025</td>
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td>RAFIF.MIZANUROHMAN002@GMAIL.COM</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">
+                            Mahasiswa Aktif
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </section>
+
+
+        <!-- Form Biodata -->
+        <section>
+            <h2>Form Biodata</h2>
+
+            <form action="#" method="post">
+
+                <label for="nama">Nama Lengkap:</label><br>
+                <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    required
+                    minlength="3"
+                >
+
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="umur">Umur:</label><br>
+                <input
+                    type="number"
+                    id="umur"
+                    name="umur"
+                    min="17"
+                    max="60"
+                    required
+                >
+
+                <br><br>
+
+                <label>Jenis Kelamin:</label><br>
+
+                <input
+                    type="radio"
+                    id="laki"
+                    name="jenis_kelamin"
+                    value="Laki-laki"
+                    required
+                >
+                <label for="laki">Laki-laki</label>
+
+                <input
+                    type="radio"
+                    id="perempuan"
+                    name="jenis_kelamin"
+                    value="Perempuan"
+                >
+                <label for="perempuan">Perempuan</label>
+
+                <br><br>
+
+                <label for="prodi">Program Studi:</label><br>
+
+                <select id="prodi" name="prodi" required>
+                    <option value="">-- Pilih Program Studi --</option>
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                    <option value="mi">Manajemen Informatika</option>
+                </select>
+
+                <br><br>
+
+                <label for="alamat">Alamat:</label><br>
+
+                <textarea
+                    id="alamat"
+                    name="alamat"
+                    rows="5"
+                    cols="40"
+                    required
+                    placeholder="Masukkan alamat lengkap"
+                ></textarea>
+
+                <br><br>
+
+                <button type="submit">Simpan</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+
+        <!-- Multimedia -->
+        <section>
+            <h2>Multimedia</h2>
+
+            <h3>Audio</h3>
+
+            <audio controls>
+                <source src="media/audio.mp3" type="audio/mpeg">
+                Browser Anda tidak mendukung audio.
+            </audio>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            &copy; 2026 Praktikum Pemrograman Web
+        </p>
+
+        <p>
+            Universitas Pelita Bangsa
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 2 - HTML Lanjutan</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Praktikum 2 - HTML Lanjutan</h1>
+        <p>Data dan Form Mahasiswa</p>
+    </header>
+
+    <nav>
+        <a href="#data">Data Mahasiswa</a> |
+        <a href="#form">Form Pendaftaran</a>
+    </nav>
+
+    <main>
+
+        <section id="data">
+            <h2>Data Mahasiswa</h2>
+
+            <article>
+                <h3>Daftar Mahasiswa</h3>
+
+                <table border="1">
+                    <caption>Data Mahasiswa Teknik Informatika</caption>
+
+                    <thead>
+                        <tr>
+                            <th>NIM</th>
+                            <th>Nama</th>
+                            <th>Program Studi</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>31241001</td>
+                            <td>Andi Pratama</td>
+                            <td>Teknik Informatika</td>
+                        </tr>
+
+                        <tr>
+                            <td>31241002</td>
+                            <td>Budi Santoso</td>
+                            <td>Sistem Informasi</td>
+                        </tr>
+
+                        <tr>
+                            <td>31241003</td>
+                            <td>Citra Lestari</td>
+                            <td>Teknik Informatika</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Jumlah Mahasiswa</td>
+                            <td>3 Orang</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+
+            <aside>
+                <h3>Informasi</h3>
+                <p>
+                    Data di atas merupakan contoh data mahasiswa
+                    untuk praktikum HTML lanjutan.
+                </p>
+            </aside>
+
+        </section>
+
+
+        <section id="form">
+
+            <h2>Form Pendaftaran</h2>
+
+            <form action="#" method="post">
+
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama"
+                       required minlength="3">
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"
+                       required>
+                <br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"
+                       required minlength="6">
+                <br><br>
+
+                <label for="umur">Umur:</label><br>
+                <input type="number" id="umur" name="umur"
+                       min="17" max="60" required>
+                <br><br>
+
+                <label for="tanggal">Tanggal Lahir:</label><br>
+                <input type="date" id="tanggal" name="tanggal">
+                <br><br>
+
+
+                <label>Jenis Kelamin:</label><br>
+
+                <input type="radio"
+                       id="laki"
+                       name="jenis_kelamin"
+                       value="Laki-laki">
+
+                <label for="laki">Laki-laki</label>
+
+                <input type="radio"
+                       id="perempuan"
+                       name="jenis_kelamin"
+                       value="Perempuan">
+
+                <label for="perempuan">Perempuan</label>
+
+                <br><br>
+
+
+                <label>Hobi:</label><br>
+
+                <input type="checkbox"
+                       id="lari"
+                       name="hobi"
+                       value="Lari">
+
+                <label for="lari">Lari</label>
+
+                <input type="checkbox"
+                       id="musik"
+                       name="hobi"
+                       value="Musik">
+
+                <label for="musik">Musik</label>
+
+                <input type="checkbox"
+                       id="gaming"
+                       name="hobi"
+                       value="Gaming">
+
+                <label for="gaming">Gaming</label>
+
+                <input type="checkbox"
+                       id="membaca"
+                       name="hobi"
+                       value="Membaca">
+
+                <label for="membaca">Membaca</label>
+
+                <br><br>
+
+
+                <label for="prodi">Program Studi:</label><br>
+
+                <select id="prodi" name="prodi" required>
+                    <option value="">-- Pilih Program Studi --</option>
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                    <option value="mi">Manajemen Informatika</option>
+                </select>
+
+                <br><br>
+
+
+                <label for="alamat">Alamat:</label><br>
+
+                <textarea id="alamat"
+                          name="alamat"
+                          rows="5"
+                          cols="40"
+                          placeholder="Masukkan alamat lengkap"></textarea>
+
+                <br><br>
+
+                <button type="submit">Daftar</button>
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Praktikum Pemrograman Web</p>
+        <p>Universitas Pelita Bangsa</p>
+    </footer>
+   
+</body>
+<hr>
+
+<h2>Form Pendaftaran</h2>
+
+<form action="#" method="post">
+
+    <label for="nama">Nama Lengkap:</label><br>
+    <input type="text" id="nama" name="nama" required minlength="3">
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required minlength="6">
+
+    <label for="tanggal">Tanggal Lahir:</label><br>
+    <label for="umur">Umur:</label><br>
+    <input type="number" id="umur" name="umur" min="17" max="60" required>
+
+<br><br>
+    <input type="date" id="tanggal" name="tanggal"><br><br>
+<br><br>
+
+<label>Jenis Kelamin:</label><br>
+
+<input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+<label for="laki">Laki-laki</label>
+
+<input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+<label for="perempuan">Perempuan</label>
+
+<br><br>
+<label>Hobi:</label><br>
+
+<input type="checkbox" id="lari" name="hobi" value="Lari">
+<label for="lari">Lari</label>
+
+<input type="checkbox" id="musik" name="hobi" value="Musik">
+<label for="musik">Musik</label>
+
+<input type="checkbox" id="gaming" name="hobi" value="Gaming">
+<label for="gaming">Gaming</label>
+
+<input type="checkbox" id="membaca" name="hobi" value="Membaca">
+<label for="membaca">Membaca</label>
+
+<br><br>
+<label for="prodi">Program Studi:</label><br>
+
+<select id="prodi" name="prodi" required>
+    <option value="">-- Pilih Program Studi --</option>
+    <option value="ti">Teknik Informatika</option>
+    <option value="si">Sistem Informasi</option>
+    <option value="mi">Manajemen Informatika</option>
+</select>
+
+<br><br>
+<label for="alamat">Alamat:</label><br>
+
+<textarea id="alamat" name="alamat" rows="5" cols="40"
+    placeholder="Masukkan alamat lengkap"></textarea>
+
+<br><br>
+    <button type="submit">Daftar</button>
+    <button type="reset">Reset</button>
+
+</form>
+<section id="multimedia">
+
+    <h2>Multimedia</h2>
+
+    <h3>Audio</h3>
+
+    <audio controls>
+        <source src="Perunggu - Gemilang (Official Lyric Video)" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <h3>Video</h3>
+
+    <video controls width="480">
+        <source src="C0099.mp4" type="video/mp4">
+        Browser Anda tidak mendukung elemen video.
+    </video>
+
+</section>
+</html>
